@@ -85,7 +85,7 @@ let questions = [
 ];
 //Getting required Elements
 let userScore = 0;
-let timeValue = 15;
+let timeValue = 60;
 let ques_count = 0;
 let counter;
 const next_btn = document.querySelector(`.next`);
@@ -98,7 +98,7 @@ let replay = document.querySelector('.restart');
 const scoreBoard = document.querySelector('.score');
 let timeCount = document.querySelector(".timer-sec");
 showQuestions(0);
-startTimer(15);
+startTimer(60);
 
 
 
