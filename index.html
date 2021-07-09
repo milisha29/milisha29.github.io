@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milisha's Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6103e5724.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Start button -->
+    <main>
+        <h1 id="heading">Give your Mind a Workout!Try this Quiz By Milisha</h1>
+        <input type="text" placeholder="Enter Your Name" id="name">
+        <div class="start-btn" id="start-btn">
+            <button id="start">Start Quiz</button>
+        </div>
+
+        <!-- Box for Information regarding quiz  -->
+        <div class="info-box" id="info-box">
+            <div class="info-title">
+                <span>Welcome<small id="message"></small>Rules for the Quiz</span>
+            </div>
+
+            <ul class="info-list">
+                <li class="rules">1.You will have <span>15 seconds</span> per question.</li>
+                <li class="rules">2.Once you select your answer, you can't reselect.</li>
+                <li class="rules">3.You can't select any option once time for that question is over.</li>
+                <li class="rules">4.You will get 1 point for the correct answer and 0 for wrong answer(No negative
+                    Marking).</li>
+            </ul>
+            <div class="buttons">
+                <button class="quit" id="quit">Exit Quiz</button>
+                <button class="restart" id="restart" onclick="restarting()">Play</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
